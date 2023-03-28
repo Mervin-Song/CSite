@@ -25,7 +25,7 @@ function App() {
   return (
     <div id="image-container">
       <h1>HAPPY BIRTHDAY CARRIE!!!</h1>
-      <img src={imagess} alt="Image 1" />
+      <img src={imagess} alt="kekw" />
     </div>
   );
 }
