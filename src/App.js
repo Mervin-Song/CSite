@@ -1,8 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  let image =
+  let imagess =
     "https://scontent.fsin3-1.fna.fbcdn.net/v/t1.18169-9/420663_1943625406307_1444827188_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=de6eea&_nc_ohc=kk7BuurEgX8AX8PwKBc&_nc_ht=scontent.fsin3-1.fna&oh=00_AfAxmawk23sD6nlmkhL8RdCaTwlNIrtoDbqY-lnc_Fcy9w&oe=644A1792";
 
   const colors = [
@@ -26,7 +25,7 @@ function App() {
   return (
     <div id="image-container">
       <h1>HAPPY BIRTHDAY CARRIE!!!</h1>
-      <img src={image} alt="Image 1" />
+      <img src={imagess} alt="Image 1" />
     </div>
   );
 }
